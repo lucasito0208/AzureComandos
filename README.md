@@ -8,7 +8,7 @@ Lista de comandos Azure en Bash
   --public-ip-sku Standard \
   --image <imagen de la VM> \
   --admin-username <nombre de usuario> \
-  --generate-ssh-keys  ´´´
+  --generate-ssh-keys  ```
 
 ### Para abreviar el resource-group asegurate de que estés utilizando el identificador del grupo de recursos de forma correcta. En Azure CLI, la forma más común de abreviar un recurso como un grupo de recursos o una máquina virtual es usando su nombre corto si ya tienes acceso a ese recurso en el contexto de tu suscripción y cuenta. Un ejemplo de abreviación es el siguiente código:
 
@@ -19,7 +19,7 @@ Lista de comandos Azure en Bash
       --public-ip-sku Standard \
       --image Ubuntu2204 \
       --admin-username azureuser \
-      --generate-ssh-keys´´´
+      --generate-ssh-keys```
 **La máquina virtual tarda unos instantes en aparecer. Ha asignado el nombre my-vm a la máquina virtual. Use este nombre para hacer referencia a la máquina virtual en los pasos posteriores.**
 
 
